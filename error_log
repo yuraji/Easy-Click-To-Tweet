@@ -1,0 +1,1 @@
+[09-Sep-2015 01:33:17] PHP Fatal error:  Call to undefined function  add_action() in /home4/scott/public_html/hoodiepack.com/wp-content/plugins/click-to-tweet/ca_sidebar_menu.php on line 4

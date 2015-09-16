@@ -1,0 +1,342 @@
+
+/*Make general changes to all tweet boxes*/
+
+.click-to-tweet {
+
+
+
+}
+
+/*Powered by link for basic theme */
+
+.click-to-tweet .powered-by {
+	color: #cbcbd2;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	font-size: 13px;
+	line-height: 15px;
+	text-decoration: none;	
+	border-bottom: none;
+}
+
+/*Powered By link for "Basic Border" theme */
+
+.click-to-tweet .blue-powered-by {
+	color: #cbcbd2;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	font-size: 13px;
+	line-height: 15px;
+	border-bottom: none;
+}
+
+
+/*powerd by link for full theme when white*/
+
+.ctt-theme-basic-full .powered-by {
+	color: #fff;
+	border-bottom: none;
+}
+
+/*powered by link for full theme when blue*/
+
+.ctt-theme-basic-full:hover .powered-by {
+	color: #cbcbd2;
+	border-bottom: none;
+}
+
+/*Basic White Theme Starts here*/
+
+
+.click-to-tweet.ctt-theme-basic-white {
+
+	color: #e2e2ea;
+		
+
+	background: transparent url(../img/full-skin-blue.png) no-repeat;
+	background-position: right 1% bottom 5px;
+		
+	border: 3px solid;
+	border-color: #e2e2ea;
+
+	font-size: 24px;
+	text-align: center;
+	font-family: Arial;
+	
+	width: 100%;
+	margin: 0;
+ 	position: relative;
+	line-height: 140%;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position: relative;
+	padding: 5%;
+	
+}
+
+.click-to-tweet.ctt-theme-basic-white .tweet-link {
+	color: #e2e2ea;
+
+}
+
+.click-to-tweet.ctt-theme-basic-white .ctt-cta {
+
+	font-size: 16px;
+	line-height: 22px;
+	padding: 6px 19px;
+	position: relative;
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+	
+}
+
+.click-to-tweet.ctt-theme-basic-white:hover {
+
+	border-color: black;
+
+
+}
+
+.click-to-tweet.ctt-theme-basic-white:hover .ctt-cta {
+
+	text-decoration: underline;
+
+
+}
+
+.click-to-tweet.ctt-theme-basic-white:hover .tweet-link {
+	text-decoration: underline;
+	border-bottom: none;
+
+
+
+}
+
+.click-to-tweet.ctt-theme-basic-white .tweet-link {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+
+.click-to-tweet.ctt-theme-basic-white .tweet-link:hover {
+
+
+	color: black;
+	border-color: black;
+	text-decoration: underline;	
+	border-bottom: none;
+	
+}
+
+/*basic white ends here*/
+
+
+/*Basic Border Starts here*/
+
+
+.click-to-tweet.ctt-theme-basic-border {
+
+	color: #e2e2ea;
+
+	
+		
+	border: 3px solid;
+	border-color: #aed4ee;
+
+	font-size: 24px;
+	text-align: center;
+	font-family: Arial;
+	
+	width: 100%;
+	margin: 0;
+ 	position: relative;
+	line-height: 140%;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position: relative;
+	
+}
+
+.click-to-tweet.ctt-theme-basic-border .tweet-link {
+
+	color: #e2e2ea;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom: none;
+
+}
+
+.click-to-tweet.ctt-theme-basic-border .ctt-cta {
+	
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: 22px;
+	padding: 6px 19px 6px 6px;
+	position: relative;
+	display: block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	color: #17b8e6;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;*/
+}
+
+.click-to-tweet.ctt-theme-basic-border .ctt-cta i.bird-icon {
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+	background: transparent url(../img/twitter-little-bird.png) no-repeat;
+	background-position: 0px 4px;
+	vertical-align: middle;
+}
+
+.click-to-tweet.ctt-theme-basic-border:hover {
+	border-color: #17b8e6;
+}
+
+.click-to-tweet.ctt-theme-basic-border .tweet-link:hover {
+
+	background: transparent url(../img/twitter-little-bird-white.png) no-repeat;
+	background-position: left 42% bottom 43px;
+
+	color: black;
+	border-color: black;
+}
+
+.click-to-tweet.ctt-theme-basic-border .tweet-link:hover .text-wrap {
+	text-decoration: underline;
+}
+
+.click-to-tweet.ctt-theme-basic-border:hover .ctt-cta i.bird-icon {
+	
+	background-image: url(../img/twitter-little-bird-white.png);
+
+}
+
+.click-to-tweet.ctt-theme-basic-border:hover .ctt-cta {
+	
+	background-color: #17b8e6;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+/*Basic border ends here*/
+
+/*Full theme starts here*/
+
+.click-to-tweet.ctt-theme-basic-full {
+
+	color: #fff;
+
+	background: transparent url(../img/full-skin-white.png) no-repeat;
+	background-color: #28aae1;
+	background-position: right 1% bottom 5px;
+		
+	border: 3px solid;
+	border-color: #28aae1;
+
+	font-size: 24px;
+	text-align: center;
+	font-family: Arial;
+	
+	width: 100%;
+	margin: 0;
+ 	position: relative;
+	line-height: 140%;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position: relative;
+	padding: 5%;
+
+}
+
+.click-to-tweet.ctt-theme-basic-full .tweet-link {
+	color: #fff;
+	border-bottom: none;
+}
+
+.click-to-tweet.ctt-theme-basic-full .ctt-cta {
+	font-size: 16px;
+	line-height: 22px;
+	padding: 6px 19px;
+	position: relative;
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
+
+.click-to-tweet.ctt-theme-basic-full:hover {
+	background-color: white;
+	background-image: url(../img/full-skin-blue.png);
+	background-position: right 1% bottom 5px;
+
+
+}
+
+.click-to-tweet.ctt-theme-basic-full:hover .ctt-cta {
+	text-decoration: underline;
+}
+
+.click-to-tweet.ctt-theme-basic-full:hover .tweet-link {
+	text-decoration: underline;
+
+
+}
+
+.click-to-tweet.ctt-theme-basic-full .tweet-link {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.click-to-tweet.ctt-theme-basic-full .tweet-link:hover {
+	
+
+	color: #28aae1;
+	border-color: black;
+	text-decoration: underline;	
+	
+}
+
+/*full ends here*/

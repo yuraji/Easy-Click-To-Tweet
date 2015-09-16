@@ -1,0 +1,16 @@
+.dashicons dashicons-yes ::before{
+	background-position: right;
+}
+
+.test	{
+	text-decoration: pink;
+}
+
+.ctt-settings-wrap img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ctt-settings-wrap #post-body.columns-2 #postbox-container-1 {
+	margin-right: -280px;
+}
